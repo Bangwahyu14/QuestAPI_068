@@ -199,3 +199,10 @@ private fun BarisDetailData(
     itemDetail: String,
     modifier: Modifier = Modifier
 ) {
+    Row(modifier = modifier) {
+        Text(stringResource(labelResID))
+        Spacer(modifier = Modifier.width(8.dp))
+        Text(text = itemDetail, fontWeight = FontWeight.Bold)
+    }
+}
+
