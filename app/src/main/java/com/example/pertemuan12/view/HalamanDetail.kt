@@ -125,3 +125,11 @@ private fun BodyDetailDataSiswa(
             else -> {}
         }
 
+        OutlinedButton(
+            onClick = { deleteConfirmationRequired = true },
+            shape = MaterialTheme.shapes.small,
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Text(stringResource(R.string.delete))
+        }
+
