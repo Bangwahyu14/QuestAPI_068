@@ -148,3 +148,8 @@ private fun BodyDetailDataSiswa(
     }
 }
 
+@Composable
+fun ItemSiswa(
+    siswa: DataSiswa,
+    modifier: Modifier = Modifier
+) {
